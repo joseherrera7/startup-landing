@@ -24,7 +24,7 @@ export default function Home() {
         </div>
 
         <div className={styles.center}>
-        <img src="src/images/km-logo.png" alt="Logo"></img>
+        <img src="https://i.postimg.cc/vTpFJ7px/km-logo.png" alt="Logo"></img>
         </div>
 
         <div className={styles.grid}>
@@ -35,10 +35,13 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             <h2 className={inter.className}>
-              Servicio 1
+              Creación de Páginas Web
             </h2>
             <p className={inter.className}>
-              Descripcion
+              - Registro de Dominio. <br></br>
+              - Servidores Virtuales.<br></br>
+              - Ecommerce.<br></br>
+              - Backup en la Nube.<br></br>
             </p>
           </a>
 
@@ -49,10 +52,11 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             <h2 className={inter.className}>
-              Servicio 2
+              Smart Business / Smart House
             </h2>
             <p className={inter.className}>
-              Descripcion
+              - Instalación de dispositivos Smart para su hogar o negocio. <br></br>
+              - Compatibles con Amazon Alexa y Google Home.<br></br>
             </p>
           </a>
 
@@ -63,10 +67,12 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             <h2 className={inter.className}>
-              Servicio 3
+              Asesorías y Consultorías
             </h2>
             <p className={inter.className}>
-              Descripcion
+              -Te asesoramos a ti y a tu negocio, para que sepas que sistema utilizar, 
+              que software adquirir y si los productos brindados por otras compañías 
+              cumplen con lo que tú solicitaste.
             </p>
           </a>
 
@@ -77,10 +83,74 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             <h2 className={inter.className}>
-              Servicio 4
+              Servicios Adicionales
             </h2>
             <p className={inter.className}>
-              Descripcion
+              - Creación y diseño de logotipos para tu empresa.<br></br>
+              - Email para empresas.<br></br>
+              - Servicio técnico básico y optimización de equipos asesorado por chat.<br></br>
+              Gestión y alamcenamiento en la nube.
+            </p>
+          </a>
+        </div>
+        <br></br><br></br><br></br>
+        <h1 className={styles.founders}>Fundadores</h1>
+        <br></br><br></br><br></br>
+        <div className={styles.grid}>
+          <a
+          href="/"
+           
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img className={styles.fundador} src='https://i.postimg.cc/x1CJ9Mpp/5d14c076-239e-427a-8050-ebd0f3580c8e.jpg' width={50} height={50} radioGroup='50px'></img>
+            <h2 className={inter.className}>
+              Renato Cabrera
+            </h2>
+            <p className={inter.className}>
+              Descripción
+            </p>
+          </a>
+          <a
+          href="/"
+            
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img className={styles.fundador} src='https://i.postimg.cc/bYKXLhk6/Captura-de-pantalla-2023-01-31-a-la-s-23-43-27.png' width={50} height={50} radioGroup='50px'></img>
+            <h2 className={inter.className}>
+              José Herrera
+            </h2>
+            <p className={inter.className}>
+              Descripción
+            </p>
+          </a>
+          <a
+          href="/"
+            
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img className={styles.fundador} src='https://i.postimg.cc/X7FRzzgn/Captura-de-pantalla-2023-01-31-a-la-s-23-43-55.png' width={50} height={50} radioGroup='50px'></img>
+            <h2 className={inter.className}>
+              Francisco Alonzo
+            </h2>
+            <p className={inter.className}>
+             Descripción
+            </p>
+          </a>
+          <a
+          href="/"
+            
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img className={styles.fundador} src='https://i.postimg.cc/jqW0z5ww/Captura-de-pantalla-2023-01-31-a-la-s-23-43-05.png' width={50} height={50} radioGroup='50px'></img>
+            <h2 className={inter.className}>
+              Emmanuel Alvarado
+            </h2>
+            <p className={inter.className}>
+              Descripción
             </p>
           </a>
         </div>
