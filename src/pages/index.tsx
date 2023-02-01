@@ -44,7 +44,6 @@ export default function Home() {
         </div>
 
         <div className={styles.grid}>
-          GRID DE SERVICIOS
           <a
             href="/"
             className={styles.card}
