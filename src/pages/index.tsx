@@ -24,7 +24,7 @@ export default function Home() {
         </div>
 
         <div className={styles.center}>
-          LOGO
+        <img src="images/km-logo.png" alt="Imagen"></img>
         </div>
 
         <div className={styles.grid}>
