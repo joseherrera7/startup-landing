@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
+import Link from 'next/link'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -28,8 +29,8 @@ export default function Home() {
         </div>
 
         <div className={styles.grid}>
-          <a
-            href="/"
+          <Link
+            href="/service/web-pages"
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
@@ -43,10 +44,10 @@ export default function Home() {
               - Ecommerce.<br></br>
               - Backup en la Nube.<br></br>
             </p>
-          </a>
+          </Link>
 
-          <a
-            href="/"
+          <Link
+            href="/service/smart-place"
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
@@ -58,10 +59,10 @@ export default function Home() {
               - Instalación de dispositivos Smart para su hogar o negocio. <br></br>
               - Compatibles con Amazon Alexa y Google Home.<br></br>
             </p>
-          </a>
+          </Link>
 
-          <a
-            href="/"
+          <Link
+            href="/service/consulting"
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
@@ -74,10 +75,10 @@ export default function Home() {
               que software adquirir y si los productos brindados por otras compañías 
               cumplen con lo que tú solicitaste.
             </p>
-          </a>
+          </Link>
 
-          <a
-            href="/"
+          <Link
+            href="/aditional-services"
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
@@ -91,7 +92,7 @@ export default function Home() {
               - Servicio técnico básico y optimización de equipos asesorado por chat.<br></br>
               Gestión y alamcenamiento en la nube.
             </p>
-          </a>
+          </Link>
         </div>
         <br></br><br></br><br></br>
         <h1 className={styles.founders}>Fundadores</h1>
